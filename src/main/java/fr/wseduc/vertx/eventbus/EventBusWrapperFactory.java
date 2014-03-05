@@ -1,4 +1,4 @@
-package com.wse.eventbus;
+package fr.wseduc.vertx.eventbus;
 
 import org.vertx.java.core.Vertx;
 import org.vertx.java.core.eventbus.EventBus;
