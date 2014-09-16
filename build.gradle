@@ -24,24 +24,26 @@ def configurePom(def pom) {
 		description 'Vertx EventBus Wrapper'
 		inceptionYear '2013'
 		packaging 'zip'
-		url 'http://code.web-education.net/projects/one-core'
+		url 'https://github.com/web-education/eventbus-wrapper'
 
 		developers {
 			developer {
 				id 'dboissin'
 				name 'Damien BOISSIN'
-				email 'damien.boissin@web-educcation.net'
+				email 'damien.boissin@web-education.net'
 			}
 		}
 
 		scm {
-			url 'git@code.web-education.net:one/one-core.git'
+      connection 'scm:git:ssh://git@github.com:web-education/eventbus-wrapper.git'
+      developerConnection 'scm:git:ssh://git@github.com:web-education/eventbus-wrapper.git'
+      url 'https://github.com/web-education/eventbus-wrapper.git'
 		}
 
 		licenses {
 			license {
-				name 'GNU Affero General Public License, Version 2.0'
-				url 'https://www.gnu.org/licenses/agpl.txt'
+        name 'The Apache Software License, Version 2.0'
+        url 'http://www.apache.org/licenses/LICENSE-2.0.txt'
 				distribution 'repo'
 			}
 		}
