@@ -21,6 +21,7 @@ dependencies{
 
 def configurePom(def pom) {
 	pom.project {
+    name 'eventbus-wrapper'
 		description 'Vertx EventBus Wrapper'
 		inceptionYear '2013'
 		packaging 'zip'
