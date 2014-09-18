@@ -24,7 +24,7 @@ def configurePom(def pom) {
     name 'eventbus-wrapper'
 		description 'Vertx EventBus Wrapper'
 		inceptionYear '2013'
-		packaging 'zip'
+		packaging 'jar'
 		url 'https://github.com/web-education/eventbus-wrapper'
 
 		developers {
